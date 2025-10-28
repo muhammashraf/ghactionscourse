@@ -15,6 +15,6 @@ jobs:
       - name: checkout repository
         uses:  actions/checkout@v5.0.0
       - name: list repository files
-        run: ls -la
+        run: Get-ChildItem -Force
         
       
